@@ -1,9 +1,6 @@
 logging:
   config: classpath:logback-${spring.profiles.active}.xml
 
-server:
-  port: 8081
-
 spring: 
   jpa:
     database: oracle
